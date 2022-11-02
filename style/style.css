@@ -1,0 +1,322 @@
+.navbar {
+  width: 100vw;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+}
+
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.icon_accueil {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.fa-solid {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.header_boutique {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgba(176, 0, 196, 0.2941176471), rgba(238, 106, 139, 0.2352941176), rgba(241, 159, 132, 0.4352941176)), url(../style/img_header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header_boutique h1 {
+  color: white;
+}
+.header_boutique p {
+  margin-top: 50px;
+  color: white;
+}
+
+.header_categorie {
+  margin-top: 100px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_categorie a {
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+  text-decoration: none;
+  color: white;
+  background-color: #ee6a8b;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_categorie a:hover {
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+  text-decoration: none;
+  color: white;
+  background-color: #f19f84;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.produit {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  margin-top: 50px;
+  height: 60vh;
+}
+
+.test {
+  margin-bottom: 50px;
+}
+
+.lesproduits {
+  text-align: center;
+}
+.lesproduits a {
+  text-decoration: none;
+  color: white;
+  background-color: #ee6a8b;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.lesproduits a:hover {
+  background-color: #f19f84;
+}
+
+.fond {
+  background-color: rgba(255, 255, 255, 0.575);
+  border-radius: 10px;
+}
+
+.form_connexion {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.body_connexion {
+  background: linear-gradient(to right, rgba(176, 0, 196, 0.9725490196), #ee6a8b, rgba(241, 159, 132, 0.4352941176));
+}
+.body_connexion h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.logo_connexion {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.connexion {
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.connexion-2 {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50vw;
+}
+
+.nav_backOffice {
+  background: linear-gradient(to right, rgba(176, 0, 196, 0.8156862745), rgba(238, 106, 139, 0.8274509804), rgba(241, 159, 132, 0.7529411765));
+  display: flex;
+  height: 100vh;
+  width: 10vw;
+  justify-content: space-around;
+}
+.nav_backOffice .logo_back {
+  width: 100px;
+}
+.nav_backOffice ul {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: space-around;
+}
+.nav_backOffice ul a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+.nav_backOffice ul a:hover {
+  color: black;
+}
+
+.page_back {
+  display: flex;
+}
+
+.h1_products {
+  width: 50%;
+  font-size: 30px;
+  margin-left: 20px;
+  color: rgba(176, 0, 196, 0.4588235294);
+  margin-top: 50px;
+}
+
+.form_produit {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.back_produit {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.name {
+  color: #ee6a8b;
+}
+
+.text_products {
+  background-color: rgba(238, 106, 139, 0.2705882353);
+  border: none;
+  border-radius: 5px;
+}
+
+.back_category {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.form_category {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  align-items: center;
+}
+.form_category h1 {
+  width: 50%;
+  font-size: 30px;
+  margin-left: 20px;
+  color: rgba(176, 0, 196, 0.4588235294);
+}
+.form_category .form-category {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
+
+.ajouter {
+  color: white;
+  background-color: #ee6a8b;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+}
+
+.ajouter:hover {
+  background-color: #f19f84;
+  text-decoration: none;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+  color: white;
+}
+
+.text_category {
+  background-color: rgba(238, 106, 139, 0.2705882353);
+  border: none;
+  border-radius: 5px;
+}
+
+.nameCategory {
+  color: #ee6a8b;
+}
+
+thead {
+  color: white;
+  background: linear-gradient(to right, rgba(176, 0, 196, 0.6784313725), rgba(238, 106, 139, 0.8274509804), rgba(241, 159, 132, 0.7529411765));
+}
+
+.formu_users {
+  display: flex;
+  flex-direction: column;
+}
+
+.h2_users {
+  font-size: 30px;
+  margin-left: 20px;
+  color: rgba(176, 0, 196, 0.4588235294);
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.form_users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+}
+
+.text_users {
+  background-color: rgba(238, 106, 139, 0.2705882353);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
