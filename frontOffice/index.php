@@ -21,40 +21,31 @@ $products = $sth->fetchAll();
 <a href="#">Basses</a>
 </div>
     </div>
-<div class="produit"> 
-    <div class="lesproduits">
-  
-        
-<table>
-        <?php
+
+    <table class="table_index">
+        <tbody class="produit">
+    <?php
     foreach ($products as $value) {?>
 <tr>
-
-<th >
-<th><img src="../bdd/uploads/<?=$value['image']?>" width=300 height=200> <th>
-<h2><?=$value["nameProducts"]?></h2>
-<p><?=$value['nameCategory']?></p>
-<p><?=$value['priceProducts']?>€</p>
-<p><?=$value['descriptionProducts']?></p>
-
-<br>
-    
-    <a href="#">Ajouter au panier</a>
-    <div class="test">
-          </div>
-    </th>
    
+    <th><div class="card" style="width: 18rem;">
+    <img src="../bdd/uploads/<?=$value['image']?> "width=285 height=150>
+  <div class="card-body test">
+  <h2 class="card-title"><?=$value["nameProducts"]?></h2>
+  <p class="card-text"><?=$value['nameCategory']?></p>
+  <h3 class="card-title"><?=$value['priceProducts']?>€</h3>
+  <p class="card-text"><?=$value['descriptionProducts']?></p>
+  <a  href="../backOffice/fonction-panier.php?action=ajout&n=<?php echo $value['nameProducts']?>&q=1&p=<?php echo $value['priceProducts']?>"onclick="window.open(this.href, '','toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350'); return false;">  Ajouter au panier</a></th>
+  </div>
   
-    </tr>
-    </div>
-    </div>
-    
-    <?php
+</div>
+</tr>
+
+<?php
     } 
     ?>
-    </table>
-    </div>
-
+    </tbody>
+</table>
 
 
 

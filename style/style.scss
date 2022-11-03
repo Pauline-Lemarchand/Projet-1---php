@@ -1,9 +1,10 @@
 
+
+h1, h2, h3{
+    font-family: 'Oxygen', sans-serif;;
+}
 // NAVBAR=================================================
 
-.navbar {
-    width: 100vw;
-}
 
 .logo {
     width: 100px;
@@ -30,7 +31,6 @@ margin-right: 20px;
     align-items: center;
     display: flex;
     justify-content: center;
-    width: 100vw;
 
 }
 
@@ -106,20 +106,42 @@ margin-right: 20px;
 }
 
 // Produuit_accueil================================
-
+.table_index{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
 .produit {
     display: flex;
-    width: 100vw;
+    width: 70vw;
     justify-content: space-around;
     margin-top: 50px;
     height: 60vh;
+    flex-wrap: wrap;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: white;
+        background-color: #ee6a8b;
 
- 
- 
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+    a:hover {
+        background-color: #f19f84;
+    }
+    .card{
+        margin: 20px
+    }
 }
-.test{
-    margin-bottom: 50px;
-}
+
+
 .lesproduits {
     text-align: center;
 
@@ -194,6 +216,7 @@ margin-right: 20px;
     justify-content: center;
     text-align: center;
     width: 50vw;
+    margin-bottom: 50px;
 }
 
 // NAVBAR BACKOFFICE ===================
@@ -356,4 +379,40 @@ thead{
     border-radius: 5px;
     margin-bottom: 20px;
 
+}
+
+// PANIER =================
+
+.body_panier{
+    background: linear-gradient(to right, #b000c4ad, #ee6a8bd3, #f19f84c0);
+   
+
+}
+.form-panier{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    h2{
+        margin-bottom: 50px;
+    }
+    table{
+        background-color: white;
+        tr{
+            border: 1px solid black;
+        }
+    }
+
+}
+.Rafraichir_panier{
+    color: white;
+    background-color: #ee6a8b;
+border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    text-decoration-color: none;
 }

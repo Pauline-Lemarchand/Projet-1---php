@@ -8,6 +8,9 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/3507128011.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
     <title>ecommerce</title>
 </head>
 
@@ -19,7 +22,7 @@
     <span class="navbar-toggler-icon"></span>
     </button>
     
-      <a class="navbar-brand" href="index.php"><img class="logo"src="../style/logo ecommerce.png" alt="logo ecommerce"></a>
+      <a class="navbar-brand" href="../frontOffice/index.php"><img class="logo"src="../style/logo ecommerce.png" alt="logo ecommerce"></a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -33,7 +36,7 @@
       </div>
       <ul class="icon_accueil">
          <li><a href="../backOffice/../backOffice/connexion.php"><i class="fa-solid fa-user"></a></i></li>
-         <li><i class="fa-solid fa-basket-shopping"></i></li>
+         <li><a href="../backOffice/fonction-panier.php"><i class="fa-solid fa-basket-shopping"></a></i></li>
       </ul>
    
   

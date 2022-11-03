@@ -14,8 +14,6 @@ $pdo = new PDO('mysql:host=localhost;dbname=ecommerce;port=3306', 'root', '', [P
     <div class="connexion">
         <div class="connexion-2">
 <a class="logo_connexion" href="../frontOffice/index.php"><img src="../style/logo ecommerce.png" alt="logo ecommerce"></a>
-  <h1>Connectez-vous</h1>
-   
   
     
   <form class="form_connexion" action="../bdd/login.php" method="post">
