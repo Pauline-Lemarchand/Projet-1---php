@@ -1,12 +1,13 @@
+
+
+<body class="body_connexion">
 <?php
 require("../frontOffice/header.php")
 ?>
-<body class="body_connexion">
-    
 
 <?php
 
-
+    
 $pdo = new PDO('mysql:host=localhost;dbname=ecommerce;port=3306', 'root', '', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
     ?>

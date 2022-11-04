@@ -3,6 +3,21 @@
 h1, h2, h3{
     font-family: 'Oxygen', sans-serif;;
 }
+
+// CARROUSEL=============
+
+
+.d-block .w-100 .trois{
+    background-image: linear-gradient(to right, #b000c44b, #ee6a8b3c, #f19f846f), url(../style/img_header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-caption{
+    height: 80vh;
+}
+
+
 // NAVBAR=================================================
 
 
@@ -18,7 +33,9 @@ h1, h2, h3{
     display: flex;
     justify-content: space-around;
     width: 70vw;
+   
 }
+
 
 li {
 
@@ -44,7 +61,18 @@ margin-right: 20px;
 .nav-link {
     font-size: 20px;
 }
+#top-scroll{
 
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+
+}
+.body_connexion{
+    #top-scroll{
+        position:relative
+    }
+}
 // header_boutique====================================
 
 .header_boutique {
@@ -72,7 +100,6 @@ margin-right: 20px;
 .header_categorie {
     margin-top: 100px;
     display: flex;
-    width: 100vw;
     justify-content: space-around;
     align-items: center;
 

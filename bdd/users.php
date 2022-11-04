@@ -38,7 +38,7 @@ echo "Entrée ajoutée dans la table";
 } catch (PDOException $e) {
 echo "Erreur : " . $e->getMessage();
 }
-header('Location:backOffices.php');
+header('Location:../backOffices/newUsers.php');
 ?>
 
 

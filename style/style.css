@@ -2,6 +2,17 @@ h1, h2, h3 {
   font-family: "Oxygen", sans-serif;
 }
 
+.d-block .w-100 .trois {
+  background-image: linear-gradient(to right, rgba(176, 0, 196, 0.2941176471), rgba(238, 106, 139, 0.2352941176), rgba(241, 159, 132, 0.4352941176)), url(../style/img_header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-caption {
+  height: 80vh;
+}
+
 .logo {
   width: 100px;
   height: 80px;
@@ -36,6 +47,16 @@ li {
   font-size: 20px;
 }
 
+#top-scroll {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+}
+
+.body_connexion #top-scroll {
+  position: relative;
+}
+
 .header_boutique {
   height: 90vh;
   display: flex;
@@ -58,7 +79,6 @@ li {
 .header_categorie {
   margin-top: 100px;
   display: flex;
-  width: 100vw;
   justify-content: space-around;
   align-items: center;
 }

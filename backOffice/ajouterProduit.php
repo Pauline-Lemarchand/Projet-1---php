@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="../style/style.css">
     <title>BACKOFFICE</title>
 </head>
+
+<?php
+session_start();
+if($_SESSION){ ?>
+
 <div class="page_back">
     <header>
         <nav class="nav_backOffice">
@@ -117,3 +122,9 @@
 
 
 </body>
+<?php
+} 
+else{
+  header('Location:../frontOffice/index.php');
+}
+?>

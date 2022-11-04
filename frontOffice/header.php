@@ -1,3 +1,14 @@
+<?php
+      session_start();
+      
+      
+      $pdo = new PDO('mysql:host=localhost;dbname=ecommerce;port=3306', 'root', '', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+      $sth = $pdo->prepare("SELECT * FROM users");
+      $sth->execute();
+      $users = $sth->fetchAll(PDO::FETCH_ASSOC);
+
+
+      ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +26,7 @@
 </head>
 
 <header>
-<nav class="navbar navbar-expand-lg bg-light">
+<nav id="top-scroll" class="navbar navbar-expand-lg bg-light ">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
      
@@ -35,10 +46,15 @@
       </div>
       </div>
       <ul class="icon_accueil">
+     
+       <?php foreach ($users as $value) { ?>
+        <li class="text_products" value="<?= $value['idUsers'] ?>">Bonjour <?= $value['nameUsers'] ?>
+        <?php } ?>
+        </li>
+      
          <li><a href="../backOffice/../backOffice/connexion.php"><i class="fa-solid fa-user"></a></i></li>
          <li><a href="../backOffice/fonction-panier.php"><i class="fa-solid fa-basket-shopping"></a></i></li>
       </ul>
    
-  
 </nav>
 </header>
