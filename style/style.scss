@@ -104,7 +104,18 @@ margin-right: 20px;
         justify-content: center;
     }
 }
-
+.filtrage{
+    margin:50px;
+}
+.button_index{
+    display: flex;
+    align-items: center;
+        justify-content: space-evenly;
+    a{
+        font-size: 10px;
+        
+    }
+}
 // Produuit_accueil================================
 .table_index{
     width: 100vw;
@@ -124,20 +135,20 @@ margin-right: 20px;
         text-decoration: none;
         color: white;
         background-color: #ee6a8b;
-
+padding: 5%;
         border-radius: 10px;
         text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 50px;
-        padding-right: 50px;
+        
 
     }
     a:hover {
         background-color: #f19f84;
     }
     .card{
-        margin: 20px
+        margin: 20px;
+        h2{
+            font-size: 20px;
+        }
     }
 }
 
@@ -415,4 +426,20 @@ border: none;
     padding-right: 15px;
     text-decoration: none;
     text-decoration-color: none;
+}
+
+// ShowProducts===============
+
+.show_products{
+    height: 80vh;
+ 
+}
+.show2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.card-body{
+    margin: 50px;
 }

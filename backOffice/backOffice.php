@@ -13,6 +13,10 @@
 <head>
 
 </head>
+<?php
+if($_SESSION){ ?>
+
+
 <nav class="nav_backOffice">
 <ul>
     <li><img class="logo_back"src="../style/logo ecommerce.png" alt=""></li>
@@ -24,6 +28,7 @@
 </ul>
 
 </nav>
+
 <body>
 
 
@@ -34,3 +39,9 @@
 
 </body>
 </html>
+<?php
+} 
+else{
+  header('Location:../frontOffice/index.php');
+}
+?>
